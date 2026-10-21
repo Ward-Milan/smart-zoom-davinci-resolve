@@ -1,0 +1,117 @@
+{
+	Tools = ordered() {
+		ZoomGenerator = MacroOperator {
+			Inputs = ordered() {
+				MainInput1 = InstanceInput {
+					SourceOp = "SmartZoom1",
+					Source = "Input",
+				},
+				InputPreview = InstanceInput {
+					SourceOp = "SmartZoom1",
+					Source = "CurvePreviewBlue",
+					Page = "Controls",
+				},
+				Input1 = InstanceInput {
+					SourceOp = "SmartZoom1",
+					Source = "CurveStyle",
+					Name = "Type de Courbe",
+					Default = 1,
+				},
+				Input2 = InstanceInput {
+					SourceOp = "SmartZoom1",
+					Source = "OvershootAmount",
+					Name = "Force du Ressort (Bounce)",
+					Default = 1.70,
+				},
+				Input3 = InstanceInput {
+					SourceOp = "SmartZoom1",
+					Source = "TimingPreset",
+					Name = "Preset Timing",
+					Default = 7,
+				},
+				Input4 = InstanceInput {
+					SourceOp = "SmartZoom1",
+					Source = "StartPercent",
+					Name = "Timeline",
+					Default = 0,
+					ControlGroup = 1,
+				},
+				Input5 = InstanceInput {
+					SourceOp = "SmartZoom1",
+					Source = "EndPercent",
+					Name = "Fin",
+					Default = 100.0,
+					ControlGroup = 1,
+				},
+				Input6 = InstanceInput {
+					SourceOp = "SmartZoom1",
+					Source = "ReverseTiming",
+					Name = "Inverser Sens Temporel",
+					Default = 0,
+				},
+				Input7 = InstanceInput {
+					SourceOp = "SmartZoom1",
+					Source = "ZoomMode",
+					Name = "Sens du Zoom",
+					Default = 0,
+				},
+				Input8 = InstanceInput {
+					SourceOp = "SmartZoom1",
+					Source = "ZoomStart",
+					Name = "Echelle Initiale",
+					Default = 1.0,
+				},
+				Input9 = InstanceInput {
+					SourceOp = "SmartZoom1",
+					Source = "ZoomTarget",
+					Name = "Echelle Cible (Zoom)",
+					Default = 1.35,
+				},
+				Input10 = InstanceInput {
+					SourceOp = "SmartZoom1",
+					Source = "TargetPivot",
+					Name = "Cible / Point d interet",
+				},
+				Input11 = InstanceInput {
+					SourceOp = "SmartZoom1",
+					Source = "FramingMode",
+					Name = "Mode de Cadrage",
+					Default = 0,
+				},
+				Input12 = InstanceInput {
+					SourceOp = "SmartZoom1",
+					Source = "EdgeMode",
+					Name = "Gestion des Bords",
+					Default = 0,
+				},
+				Input13 = InstanceInput {
+					SourceOp = "SmartZoom1",
+					Source = "Angle",
+					Name = "Angle de Rotation",
+					Default = 0,
+				},
+			},
+			Outputs = {
+				MainOutput1 = InstanceOutput {
+					SourceOp = "SmartZoom1",
+					Source = "Output",
+				}
+			},
+			ViewInfo = GroupInfo { Pos = { 0, 0 } },
+			Tools = ordered() {
+				SmartZoom1 = Fuse.SmartZoom {
+					Inputs = {
+						CurveStyle = Input { Value = 1, },
+						TimingPreset = Input { Value = 7, },
+						StartPercent = Input { Value = 0, },
+						EndPercent = Input { Value = 100, },
+						ZoomTarget = Input { Value = 1.35, },
+						OvershootAmount = Input { Value = 1.70, },
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+				}
+			},
+		}
+	},
+	ActiveTool = "ZoomGenerator"
+}
