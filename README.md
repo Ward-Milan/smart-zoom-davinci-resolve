@@ -8,6 +8,10 @@
 > **La suite ultime de zooms cinématiques et dynamiques pour DaVinci Resolve (Page Montage).**  
 > Zoomez avec précision, fluidité et style en un glisser-déposer, sans jamais poser une seule image-clé à la main !
 
+<div align="center">
+  <img src="assets/overview_ui.png" width="100%" alt="Smart Zoom Suite dans DaVinci Resolve Studio" style="border-radius: 8px; box-shadow: 0 8px 30px rgba(0,0,0,0.5);">
+</div>
+
 ---
 
 ## 🎯 Aperçu des deux outils
@@ -46,8 +50,8 @@ Visualisez instantanément la courbe d'accélération sélectionnée directement
       <td align="center"><b>Zoom Generator (Bleu Électrique)</b></td>
     </tr>
     <tr>
-      <td><img src="assets/inspector_smart_zoom.png" width="300" alt="Inspecteur Smart Zoom"></td>
-      <td><img src="assets/inspector_zoom_generator.png" width="300" alt="Inspecteur Zoom Generator"></td>
+      <td><img src="assets/inspector_smart_zoom.png" width="380" alt="Inspecteur Smart Zoom"></td>
+      <td><img src="assets/inspector_zoom_generator.png" width="380" alt="Inspecteur Zoom Generator"></td>
     </tr>
   </table>
 </div>
