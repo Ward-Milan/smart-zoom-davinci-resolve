@@ -4,6 +4,7 @@
 [![Platform](https://img.shields.io/badge/Platform-macOS%20%7C%20Windows%20%7C%20Linux-orange)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![GPU Accelerated](https://img.shields.io/badge/Render-GPU%20Native-success)]()
+[![AI Assisted](https://img.shields.io/badge/Code-AI%20Assisted-blueviolet)](#-disclaimer--développement--ia)
 
 > **La suite ultime de zooms cinématiques et dynamiques pour DaVinci Resolve (Page Montage).**  
 > Zoomez avec précision, fluidité et style en un glisser-déposer, sans jamais poser une seule image-clé à la main !
@@ -131,6 +132,13 @@ Copiez les fichiers aux emplacements suivants selon votre système :
    - Choisissez votre **Type de Courbe**.
    - Ajustez la **Timeline** ou choisissez un **Preset**.
    - Ajustez l'**Échelle Cible** et le **Point d'intérêt**.
+
+---
+
+## 🤖 Disclaimer / Développement & IA
+
+Ce projet a été conçu, codé et optimisé en **pair-programming avec une assistance par Intelligence Artificielle**.
+L'ensemble de l'architecture, du code Lua (`.fuse`), des calculs mathématiques des courbes d'accélération (Bézier / Spring physics) et des templates de macro DaVinci Resolve ont été développés, testés en conditions réelles et validés sur DaVinci Resolve Studio pour garantir une stabilité et des performances GPU maximales.
 
 ---
 
